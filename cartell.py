@@ -5,13 +5,13 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "CartellDB.txt")
 
-# יצירת הקובץ אם לא קיים
+
 if not os.path.exists(DB_PATH):
     with open(DB_PATH, "w") as f:
         f.write("")
 
 def main():
-    attempts = 0
+    attempts = 0 
     while True:
         print("\n--- Cartell System ---")
         print("1: Show all cars in database")
