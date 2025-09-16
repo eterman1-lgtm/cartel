@@ -40,7 +40,7 @@ def main():
 def get_vehicles():
     print("\n--- list of viechals ---")
     header = "{:<10} {:<15} {:<10} {:<10} {:<12} {:<20}".format(
-        "car number", "company", "צבע", "year ", "KM", " date added")
+        "car number", "company", "color", "year ", "KM", " date added")
     print(header)
     print("-" * len(header))
     try:
